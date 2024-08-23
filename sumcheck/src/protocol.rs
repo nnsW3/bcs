@@ -195,7 +195,7 @@ impl<F: PrimeField + Absorb> UnivariateSumcheck<F> {
         );
     }
 
-    // there is no need to do query phase. LDT will fail is sum is incorrect.
+    // there is no need to do query phase. LDT will fail if sum is incorrect.
 }
 
 #[cfg(test)]
