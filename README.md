@@ -33,7 +33,7 @@ verification logic can be delayed to query and decision phase.
 - This implementation has low-degree test built-in, and can handle RS-IOP.
 - Multiple oracles with same evaluation domain share a merkle tree and be submitted in one round, which greatly reduces
   verification overhead and number of constraints.
-- Each leaf of an low-degree oracle is a coset instead of an individual field element, which significantly reduces
+- Each leaf of a low-degree oracle is a coset instead of an individual field element, which significantly reduces
   merkle tree overhead on FRI query.
  
 ## Build Guide
@@ -67,7 +67,7 @@ This library is licensed under either of the following licenses, at your discret
 * [Apache License Version 2.0](LICENSE-APACHE)
 * [MIT License](LICENSE-MIT)
 
-Unless you explicitly state otherwise, any contribution that you submit to this library shall be dual licensed as
+Unless you explicitly state otherwise, any contribution that you submit to this library shall be dual-licensed as
 above (as defined in the Apache v2 License), without any additional terms or conditions.
 
 ## Reference papers
